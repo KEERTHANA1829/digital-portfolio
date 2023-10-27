@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size:border-box ;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    background-color:#c1e8f2;
+}a{
+    text-decoration: none;
+}
+#h2{
+	font-style:normal;
+	text-indent:0;
+}
+
+.hero{
+    height:80px ;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo{
+    font-size:30px;
+    font-weight:bold ;
+    color: blue;
+    cursor: pointer; 
+}
+.logo::first-letter{
+    font-size: 40px;
+    border: 2px solid blue;
+    border-right:transparent ;
+    padding-left:5px ;
+    color: #f64766;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    color:#1d1d24 ;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #f64766;
+}
+nav ul  li a::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: #f64766;
+    transition: .3s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background:#ed1750 ;
+    padding:10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    border: 2px solid #f64766;
+}
+.btn:hover{
+    background:transparent ;
+    color: #f64766;
+}
+#about{
+	width:100%;
+	height:300px;
+}
+#about pre{
+	font-size:25px;
+	line-height:60px;
+	font-style:normal;
+}
+#about pre span{
+	color:#ed1750;
+}
+table,tr,td,th
+{
+	font-style:normal;
+	font-size:20px;
+	padding-left:20px;
+	border:1px solid black;
+	border-collapse:collapse;
+}
+table{
+	width:1000px;
+	height:200px;
+}
+#gaptable{
+	height:200px;
+	width:10%;
+	float:left;
+}
+#table{
+	height:200px;
+	float:left;
+}
+h2{
+	text-indent:50px;
+	font-style:italic;
+	font-size:30px;
+}
+#skill{
+	width:20%;
+	height:400px;
+	float:left;
+	
+}
+
+#skill1{
+	width:40%;
+	height:400px;
+	float:left;
+	
+}
+skill2{
+	width:40%;
+	height:400px;
+	float:right;
+}
+#skill1 h2{
+	text-indent:15px;
+	font-style:normal;
+}
+#skill2 h2{
+	text-indent:5px;
+	font-style:normal;
+}
+
+#project{
+	width:40%;
+	height:300px;
+	float:left;
+}
+#project1{
+	width:60%;
+	height:300px;
+	float:left;
+}
+#project1 h2{
+	text-indent:10px;
+}
+#project1 h2 span{
+	font-size:20px;
+}
+#contact{
+	width:40%;
+	height:300px;
+	float:left;
+}
+#contact1{
+	width:60%;
+	height:300px;
+	float:left;
+}
+#cer{
+	width:20%;
+	height:300px;
+	float:left;
+}
+#cer1{
+	width:30%;
+	height:300px;
+	float:left;
+}
+#cer2{
+	width:50%;
+	height:300px;
+	float:left;
+}
+#cer1 h2{
+	text-indent:0;
+	font-style:normal;
+}
+#cer2 h2{
+	text-indent:0;
+	font-style:normal;
+}
+tr:hover{
+	background-color:black;
+	color:white;
+}
